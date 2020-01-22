@@ -1,0 +1,73 @@
+@media screen and (min-width: 600px) {
+  .res_block {
+    width: 200px;
+  }
+}
+@media (max-width: 599px) {
+  .res_block {
+    width: 100%;
+  }
+}
+* {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#search_block {
+  display: flex;
+  height: 250px;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#myInput {
+  margin: 10px;
+  border: 2px solid #999999;
+  outline: none;
+  height: 24px;
+  width: 250px;
+  border-radius: 10px 0px 0px 10px;
+  margin-right: 0px;
+  padding: 2px 10px;
+}
+
+#myButton {
+  margin: 10px;
+  border: 2px solid #999999;
+  outline: none;
+  height: 32px;
+  width: 120px;
+  margin-left: 0px;
+  border-radius: 0px 10px 10px 0px;
+  background: #fafafa;
+  border-left: 0px;
+}
+#myButton:hover {
+  background: #a7a7a7;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#result_blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.res_block {
+  height: 200px;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background: #fafafa;
+  text-align: center;
+  box-shadow: 0 0 5px 3px #e1e1e1;
+}
+
+img {
+  width: 128px;
+}
+
+/*# sourceMappingURL=style.css.map */
